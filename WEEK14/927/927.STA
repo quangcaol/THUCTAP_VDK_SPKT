@@ -1,0 +1,62 @@
+
+ROM used:   1086/32768 (3%)
+            1086/32768 (3%) including unused fragments
+
+            0.4 Average locations per line
+            1.4 Average locations per statement
+
+RAM used:   1164/2048 (57%) at main() level
+            1173/2048 (57%) worst case
+
+Stack used: 4 worst case (3 in main + 1 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   54    10   1  927.c
+  852     0   0  18F4550.h
+  702   247  32  TV_PICKIT2_SHIFT_1.c
+   62    50   6  TV_PICKIT2_SHIFT_KEY4X4_138.c
+  395   247  32  TV_PICKIT2_SHIFT_32LED_DON.c
+   49    26   3  TV_PICKIT2_SHIFT_STEP_MOTOR.c
+   69    31   4  TV_PICKIT2_SHIFT_DC_MOTOR.c
+  276    88  11  TV_PICKIT2_SHIFT_GLCD128X64.c
+   36    17   2  TV_PICKIT2_SHIFT_DS18B20.c
+  230    54   7  ..\..\..\TT - VDK - HK 1 - 20-21\1 - PHAN MEM\PICC\drivers\touch.c
+----- -----
+ 2725   770 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     44   2    0             @const731
+0     46   2    3   271  4.3  xuat_1byte
+0     30   1    0   152  1.8  set_up_port_ic_chot
+0     48   2    0   119  1.7  mo_ic_74573_a_thong_dl
+0     44   2    4   231  2.3  xuat_4led_7doan_4so
+0    344  16    5   465  4.8  xuat_4led_7doan_giaima_xoa_so0
+0     70   3    5             @DIV1616
+0     20   1    0    29  1.2  interrupt_timer3
+0    294  14    0   134  2.2  MAIN
+ Inline         0    61  1.6  @cinit1
+
+Program metrics:
+    Functions               8
+    Statements              770
+    Comments                577
+    Volume (V)              2294
+    Difficulty (D)          20.1
+    Effort to implement (E) 46098
+    Time to implement (T)   43 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   4
+    Maintainability (MI)    95
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-00094   142  0  
+00096-07FFE   940  31678  
+
+
+

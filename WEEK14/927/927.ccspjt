@@ -1,0 +1,20 @@
+[PROJECT]
+Target=927.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.015
+Compiler=PCH
+[Target Data]
+FileList=927.c
+[927.c]
+Type=4
+[mru-list]
+1=927.c
+[Directories]
+Include=D:\Document\TTVXL\TT - VDK - HK 1 - 20-21\1 - PHAN MEM\PICC\devices\;D:\Document\TTVXL\TT - VDK - HK 1 - 20-21\1 - PHAN MEM\PICC\drivers\
+[Opened Files]
+1=927.c
+2=18F4550.h
+3=
+[Units]
+Count=1
+1=927 (main)

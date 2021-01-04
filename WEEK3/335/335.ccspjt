@@ -1,0 +1,14 @@
+[PROJECT]
+Target=335.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.078
+Compiler=PCH
+[Target Data]
+FileList=335.c
+[335.c]
+Type=4
+[mru-list]
+1=335.c
+[Units]
+Count=1
+1=335 (main)

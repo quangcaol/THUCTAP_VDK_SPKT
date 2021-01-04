@@ -1,0 +1,14 @@
+[PROJECT]
+Target=518.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.078
+Compiler=PCH
+[Target Data]
+FileList=518.c
+[518.c]
+Type=4
+[mru-list]
+1=518.c
+[Units]
+Count=1
+1=518 (main)

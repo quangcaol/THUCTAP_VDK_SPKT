@@ -1,0 +1,172 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     tin_hieu_dk_74573_a
+004.2   g_lcda
+004.4   g_32a
+004.6   g_4a
+005     tin_hieu_dk_74573_b
+005.2   g_rbdcb
+005.4   g_8b
+005.6   g_mtb
+006     dl_btn
+007.0   step_motor_enable
+007-008 rbdc
+007.1   step_motor_in1
+007.2   step_motor_in2
+007.3   step_motor_in3
+007.4   step_motor_in4
+007.5   dc_enable
+007.6   pwrkey
+008.0   buzzer
+008.1   triac_1
+008.2   triac_2
+008.3   relay_1
+008.4   relay_2
+009     donvi4
+00A     chuc4
+00B     tram4
+00C     ngan4
+00D     lcddata
+00E     lcdcontrol
+00F     glcddata
+010     glcdcontrol
+011-018 led_7dq
+019     tt8led
+01A     mpt1
+01B     mpt2
+01C     mp
+01D     pattern
+01E     patternD
+01F-022 y
+023     flag
+024     flag1
+025-026 y1
+027-028 y2
+029     stat
+02A-02D stack
+02E-031 stack1
+032-035 head1
+036-039 head
+03A     key_nhan.maphim
+03A     @delay_ms1.P1
+03A     left_2_right_decay.@SCRATCH1
+03A     right_2_left_decay.@SCRATCH1
+03A     out_2_in.@SCRATCH1
+03A     in_2_out.@SCRATCH1
+03A     left_2_right_incr.@SCRATCH1
+03A     right_2_left_incr.@SCRATCH1
+03B     key_nhan.hang
+03B     left_2_right_decay.@SCRATCH2
+03B     right_2_left_decay.@SCRATCH2
+03B     out_2_in.@SCRATCH2
+03B     in_2_out.@SCRATCH2
+03B     left_2_right_incr.@SCRATCH2
+03B     right_2_left_incr.@SCRATCH2
+03C     key_nhan.cot
+03C     left_2_right_decay.@SCRATCH3
+03C     right_2_left_decay.@SCRATCH3
+03C     left_2_right_incr.@SCRATCH3
+03C     right_2_left_incr.@SCRATCH3
+03D     @MUL88.P1
+03D     key_nhan.@SCRATCH1
+03D     left_2_right_decay.@SCRATCH4
+03D     right_2_left_decay.@SCRATCH4
+03D     left_2_right_incr.@SCRATCH4
+03D     right_2_left_incr.@SCRATCH4
+03E     @MUL88.P1
+03E     left_2_right_decay.@SCRATCH5
+03E     right_2_left_decay.@SCRATCH5
+03E     left_2_right_incr.@SCRATCH5
+03E     right_2_left_incr.@SCRATCH5
+03F-040 xuat_32led_don_2word.wld1
+041-042 xuat_32led_don_2word.wld0
+043     xuat_32led_don_2word.b3
+044     xuat_32led_don_2word.b2
+045     xuat_32led_don_2word.b1
+046     xuat_32led_don_2word.b0
+047     xuat_32led_don_4byte.bld3
+048     xuat_32led_don_4byte.bld2
+049     xuat_32led_don_4byte.bld1
+04A     xuat_32led_don_4byte.bld0
+04B     xuat_1byte.bytexuat
+04C     xuat_1byte.sb
+04D     xuat_1byte.x
+04D.7   xuat_1byte.bseri
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P1
+FE9-FEA @WRITE_PROGRAM_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P3
+FE9-FEA @WRITE_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  maquetkey.call
+000014  maquetkey.data
+000018  set_up_port_ic_chot
+000036  xuat_1byte
+000060  mo_ic_74573_a_thong_dl
+000090  xuat_32led_don_4byte
+0000BA  @MUL88
+000106  key_nhan
+000176  @delay_ms1
+00019C  key_4x4_dw
+0001C8  xuat_32led_don_2word
+0001EC  blink_32led
+000214  left_2_right_decay
+00029E  right_2_left_decay
+000326  out_2_in
+000384  in_2_out
+0003E2  left_2_right_incr
+0004AE  right_2_left_incr
+000564  MAIN
+000564  @cinit1
+0005B0  @cinit2
+
+Project Directory:
+    D:\Document\TTVXL\TH_VDK_PIC_N1_SANG_THU_2\WEEK3\335\
+
+Project Files:
+    335.c                                                   [12-Oct-20 14:06  CRC=5AB1DA84]
+    TV_PICKIT2_SHIFT_1.c                                    [12-Oct-20 13:56  CRC=78266B1E]
+    ..\..\..\..\..\MPLABX\PICC\devices\18f4550.h            [02-Apr-18 08:22  CRC=06200171]
+    TV_PICKIT2_SHIFT_KEY4X4_138.c                           [12-Oct-20 13:56  CRC=E058FE9E]
+    18F4550.h                                               [12-Oct-20 13:56  CRC=06200171]
+
+Source signature=C5914893
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=9574
+
+Units:
+    335 (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    Errors:      335.err
+    INHX32:      335.hex
+    Symbols:     335.sym
+    List:        335.lst
+    Debug/eCOD:  335.cod
+    Project:     335.ccspjt

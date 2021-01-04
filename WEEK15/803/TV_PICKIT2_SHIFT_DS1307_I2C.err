@@ -1,0 +1,4 @@
+Compiling D:\Document\TTVXL\TH_VDK_PIC_N1_SANG_THU_2\WEEK12\802\TV_PICKIT2_SHIFT_DS1307_I2C on 14-Dec-20 at 16:28
+*** Error 128 "TV_PICKIT2_SHIFT_DS1307_I2C.c" Line 13(10,16): A #DEVICE required before this line
+      1 Errors,  0 Warnings.
+Build Failed.

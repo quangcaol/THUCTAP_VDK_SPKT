@@ -1,0 +1,138 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     tin_hieu_dk_74573_a
+004.2   g_lcda
+004.4   g_32a
+004.6   g_4a
+005     tin_hieu_dk_74573_b
+005.2   g_rbdcb
+005.4   g_8b
+005.6   g_mtb
+006     dl_btn
+007.0   step_motor_enable
+007-008 rbdc
+007.1   step_motor_in1
+007.2   step_motor_in2
+007.3   step_motor_in3
+007.4   step_motor_in4
+007.5   dc_enable
+007.6   pwrkey
+008.0   buzzer
+008.1   triac_1
+008.2   triac_2
+008.3   relay_1
+008.4   relay_2
+009     donvi4
+00A     chuc4
+00B     tram4
+00C     ngan4
+00D     lcddata
+00E     lcdcontrol
+00F     glcddata
+010     glcdcontrol
+011-018 led_7dq
+019     tt8led
+01A     mpt1
+01B     mpt2
+01C-01F y
+020     flag
+021     flag1
+022-023 y1
+024-025 y2
+026     stat
+027-02A stack
+02B-02E stack1
+02F-032 head1
+033-036 head
+037-038 tailC
+039-03A tail
+03B     @delay_ms1.P1
+03B     tail_right_to_left.@SCRATCH1
+03C     tail_right_to_left.@SCRATCH2
+03D     tail_right_to_left.@SCRATCH3
+03E     tail_right_to_left.@SCRATCH4
+03F     tail_right_to_left.@SCRATCH5
+040-041 xuat_32led_don_2word.wld1
+042-043 xuat_32led_don_2word.wld0
+044     xuat_32led_don_2word.b3
+045     xuat_32led_don_2word.b2
+046     xuat_32led_don_2word.b1
+047     xuat_32led_don_2word.b0
+048     xuat_32led_don_4byte.bld3
+049     xuat_32led_don_4byte.bld2
+04A     xuat_32led_don_4byte.bld1
+04B     xuat_32led_don_4byte.bld0
+04C     xuat_1byte.bytexuat
+04D     xuat_1byte.sb
+04E     xuat_1byte.x
+04E.7   xuat_1byte.bseri
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P1
+FE9-FEA @WRITE_PROGRAM_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P3
+FE9-FEA @READ_PROGRAM_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  set_up_port_ic_chot
+000022  xuat_1byte
+00004C  mo_ic_74573_a_thong_dl
+00007C  xuat_32led_don_4byte
+0000A6  xuat_32led_don_2word
+0000CC  @delay_ms1
+0000F4  tail_right_to_left
+00016C  @cinit1
+00016C  MAIN
+0001BC  @cinit2
+
+Project Directory:
+    D:\Document\TTVXL\TH_VDK_PIC_N1_SANG_THU_2\WEEK2\326\
+
+Project Files:
+    326.c                                                   [15-Oct-20 22:46  CRC=5758BD6E]
+    TV_PICKIT2_SHIFT_1.c                                    [08-Oct-20 00:42  CRC=78266B1E]
+    ..\..\..\..\..\MPLABX\PICC\Devices\18f4550.h            [02-Apr-18 08:22  CRC=06200171]
+    TV_PICKIT2_SHIFT_KEY4X4_138.c                           [08-Oct-20 00:42  CRC=E058FE9E]
+
+Source signature=96512739
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=D395
+
+Units:
+    326 (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   326.xsym
+    Errors:      326.err
+    Ext Symbols: 326.esym
+    INHX32:      326.hex
+    Symbols:     326.sym
+    List:        326.lst
+    Debug/COFF:  326.cof
+    Project:     326.ccspjt
+    Call Tree:   326.tre
+    Statistics:  326.STA

@@ -1,0 +1,33 @@
+[PROJECT]
+Target=BT312.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.078
+Compiler=PCH
+[Target Data]
+FileList=BT312.c
+[BT312.c]
+Type=4
+[mru-list]
+1=BT312.c
+
+[defines]
+buildcount=9
+
+[Opened Files]
+1=BT312.c
+t1=9
+Count=1
+[Units]
+Count=1
+1=BT312 (main)
+
+[ProjectLog]
+Days=1
+D1=29-09-2020
+D1_L=2
+D1_L1=[313]Stopped Editing.
+TotalEdit=32
+TotalDebug=0
+D1_E=32
+D1_D=0
+D1_L2=[313]Project Closed.

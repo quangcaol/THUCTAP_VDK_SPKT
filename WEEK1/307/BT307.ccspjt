@@ -1,0 +1,23 @@
+[PROJECT]
+Target=BT307.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.078
+Compiler=PCH
+[Target Data]
+FileList=BT307.c
+[BT307.c]
+Type=4
+[mru-list]
+1=BT307.c
+[Units]
+Count=1
+1=BT307 (main)
+
+[defines]
+buildcount=1
+
+[ProjectLog]
+Days=1
+D1=28-09-2020
+D1_L=1
+D1_L1=[58936]Project Closed.

@@ -1,0 +1,14 @@
+[PROJECT]
+Target=332.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.078
+Compiler=PCH
+[Target Data]
+FileList=332.c
+[332.c]
+Type=4
+[mru-list]
+1=332.c
+[Units]
+Count=1
+1=332 (main)

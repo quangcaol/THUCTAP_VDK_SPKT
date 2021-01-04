@@ -1,0 +1,28 @@
+[PROJECT]
+Target=304.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.078
+Compiler=PCH
+[Target Data]
+FileList=304.c
+[304.c]
+Type=4
+[mru-list]
+1=304.c
+
+[defines]
+buildcount=7
+
+[Opened Files]
+1=304.c
+t1=4
+Count=1
+[Units]
+Count=1
+1=304 (main)
+
+[ProjectLog]
+Days=1
+D1=28-09-2020
+D1_L=1
+D1_L1=[57485]Project Closed.

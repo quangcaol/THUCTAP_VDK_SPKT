@@ -1,0 +1,78 @@
+CCS PCH C Compiler, Version 5.078, 43599               14-Dec-20 23:31
+
+               Filename:   D:\Document\TTVXL\TH_VDK_PIC_N1_SANG_THU_2\WEEK2\326\main.lst
+
+               ROM used:   42 bytes (0%)
+                           Largest free fragment is 32726
+               RAM used:   4 (0%) at main() level
+                           4 (0%) worst case
+               Stack used: 0 locations
+               Stack size: 31
+
+*
+0000:  GOTO   0004
+.................... #include <main.h> 
+.................... #include <18F4550.h> 
+.................... //////////// Standard Header file for the PIC18F4550 device //////////////// 
+.................... /////////////////////////////////////////////////////////////////////////// 
+.................... ////        (C) Copyright 1996, 2014 Custom Computer Services          //// 
+.................... //// This source code may only be used by licensed users of the CCS C  //// 
+.................... //// compiler.  This source code may only be distributed to other      //// 
+.................... //// licensed users of the CCS C compiler.  No other use, reproduction //// 
+.................... //// or distribution is permitted without written permission.          //// 
+.................... //// Derivative programs created using this software in object code    //// 
+.................... //// form are not restricted in any way.                               //// 
+.................... /////////////////////////////////////////////////////////////////////////// 
+.................... #device PIC18F4550 
+....................  
+.................... #list 
+....................  
+.................... #device ADC=10 
+....................  
+.................... #FUSES NOWDT                 	//No Watch Dog Timer 
+....................  
+.................... #use delay(crystal=20000000) 
+.................... #use i2c(Master,Fast,sda=PIN_B0,scl=PIN_B1) 
+....................  
+....................  
+.................... #use i2c(Master,Fast,sda=PIN_B0,scl=PIN_B1) 
+....................  
+.................... void main() 
+0004:  CLRF   FF8
+0006:  BCF    FD0.7
+0008:  BSF    F93.1
+000A:  BSF    F93.0
+000C:  MOVLW  0C
+000E:  MOVWF  FC8
+0010:  MOVLW  28
+0012:  MOVWF  FC6
+0014:  BCF    FC7.7
+0016:  BCF    FC7.6
+0018:  MOVF   FC1,W
+001A:  ANDLW  C0
+001C:  IORLW  0F
+001E:  MOVWF  FC1
+0020:  MOVLW  07
+0022:  MOVWF  FB4
+.................... { 
+....................  
+....................    while(TRUE) 
+....................    { 
+0024:  GOTO   0024
+....................  
+....................  
+....................       //TODO: User Code 
+....................    } 
+....................  
+.................... } 
+*
+0028:  SLEEP 
+
+Configuration Fuses:
+   Word  1: CC04   PLL5 CPUDIV1 NOUSBDIV HS FCMEN IESO
+   Word  2: 1E3E   PUT BROWNOUT BORV21 VREGEN NOWDT WDT32768
+   Word  3: 8700   CCP2C1 PBADEN LPT1OSC MCLR
+   Word  4: 00A1   STVREN NOLVP ICSP2 NOXINST NODEBUG
+   Word  5: C00F   NOPROTECT NOCPB NOCPD
+   Word  6: E00F   NOWRT NOWRTC NOWRTB NOWRTD
+   Word  7: 400F   NOEBTR NOEBTRB

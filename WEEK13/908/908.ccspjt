@@ -1,0 +1,14 @@
+[PROJECT]
+Target=908.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.078
+Compiler=PCH
+[Target Data]
+FileList=908.c
+[908.c]
+Type=4
+[mru-list]
+1=908.c
+[Units]
+Count=1
+1=908 (main)

@@ -1,0 +1,9 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "C_Cpp.default.includePath": [
+        "D:\\MPLABX\\PICC\\Drivers"
+    ],
+    "files.associations": {
+        "TV_PICKIT2_SHIFT_DS1307_I2C.C": "cpp"
+    }
+}

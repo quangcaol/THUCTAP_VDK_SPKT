@@ -1,0 +1,14 @@
+ÀÄ322
+   ÀÄMAIN  0/136  Ram=1
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄSET_UP_PORT_IC_CHOT  0/30  Ram=0
+      ÃÄXUAT_32LED_DON_4BYTE  0/42  Ram=4
+      ³  ÃÄXUAT_1BYTE  0/42  Ram=3
+      ³  ÃÄXUAT_1BYTE  0/42  Ram=3
+      ³  ÃÄXUAT_1BYTE  0/42  Ram=3
+      ³  ÃÄXUAT_1BYTE  0/42  Ram=3
+      ³  ÀÄMO_IC_74573_A_THONG_DL  0/48  Ram=0
+      ÃÄXUAT_32LED_DON_4BYTE  0/42  Ram=4
+      ³  ÀÄ*
+      ÀÄXUAT_32LED_DON_4BYTE  0/42  Ram=4
+         ÀÄ*

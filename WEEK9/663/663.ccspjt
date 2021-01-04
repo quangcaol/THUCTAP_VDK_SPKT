@@ -1,0 +1,14 @@
+[PROJECT]
+Target=663.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.078
+Compiler=PCH
+[Target Data]
+FileList=663.c
+[663.c]
+Type=4
+[mru-list]
+1=663.c
+[Units]
+Count=1
+1=663 (main)

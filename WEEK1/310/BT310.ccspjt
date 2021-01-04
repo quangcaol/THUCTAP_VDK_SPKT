@@ -1,0 +1,48 @@
+[PROJECT]
+Target=BT310.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.078
+Compiler=PCH
+[Target Data]
+FileList=BT310.c
+[BT310.c]
+Type=4
+[mru-list]
+1=BT310.c
+
+[defines]
+buildcount=22
+
+[Opened Files]
+1=BT310.c
+t1=9
+Count=2
+2=TV_PICKIT2_SHIFT_1.c
+t2=258
+
+[ProjectLog]
+Days=1
+D1=28-09-2020
+D1_L=12
+D1_L1=[60488]Stopped Editing.
+TotalEdit=12
+TotalDebug=0
+D1_E=12
+D1_D=0
+D1_L2=[60488]Project Closed.
+D1_L3=[77471]Project Opened.
+D1_L4=[77987]Started Editing.
+D1_L5=[78918]Stopped Editing.
+D1_L6=[79278]Started Editing.
+D1_L7=[79580]Stopped Editing.
+D1_L8=[79823]Started Editing.
+D1_L9=[80123]Stopped Editing.
+D1_L10=[80220]Started Editing.
+D1_L11=[80812]Stopped Editing.
+D1_L12=[81552]Project Closed.
+
+[fileformats]
+forcecoff=0
+[Units]
+Count=1
+1=BT310 (main)

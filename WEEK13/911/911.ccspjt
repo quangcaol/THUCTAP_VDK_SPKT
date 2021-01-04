@@ -1,0 +1,14 @@
+[PROJECT]
+Target=911.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.078
+Compiler=PCH
+[Target Data]
+FileList=911.c
+[911.c]
+Type=4
+[mru-list]
+1=911.c
+[Units]
+Count=1
+1=911 (main)

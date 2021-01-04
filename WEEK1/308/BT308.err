@@ -1,0 +1,10 @@
+Compiling D:\Document\TTVXL\TH_VDK_PIC_N1_SANG_THU_2\308\BT308 on 28-Sep-20 at 16:23
+*** Error 18 "BT308.c" Line 1(9,31): File can not be opened
+    Not in source "TV_PICKIT2_SHIFT_1.c"
+    Not in local "TV_PICKIT2_SHIFT_1.c"
+    Not in project "D:\Document\TTVXL\TH_VDK_PIC_N1_SANG_THU_2\308\TV_PICKIT2_SHIFT_1.c"
+    Not in "D:\MPLABX\PICC\Devices\TV_PICKIT2_SHIFT_1.c"
+    Not in "D:\MPLABX\PICC\Drivers\TV_PICKIT2_SHIFT_1.c"
+*** Error 128 "D:\MPLABX\PICC\Drivers\stdint.h" Line 19(9,15): A #DEVICE required before this line
+      2 Errors,  0 Warnings.
+Build Failed.

@@ -1,0 +1,141 @@
+#include "TV_PICKIT2_SHIFT_1.c"
+#include "TV_PICKIT2_SHIFT_KEY4X4_138.c"
+
+
+unsigned int32 Y=0;
+int8 flag = 1;
+int8 flag1 = 1;
+unsigned int16 y1 = 0,y2 = 0;
+int8 stat = 6;
+int32 stack = 0x80000000;
+int32 head = 1;
+int32 stack1 = 1;
+int32 head1 = 0x80000000;
+
+
+void blink_32led() {
+   if (stat == 1){
+      xuat_32led_don_2word(0xffff,0xffff);
+      delay_ms(50);
+      xuat_32led_don_2word(0,0);
+      delay_ms(50);
+   }
+}
+
+void left_2_right_decay() {
+      if( stat == 3) {
+         if ((y == 0xffffffff) ||  (y == 0)) { flag = ~flag; }
+         if (flag & 0x1) {
+            y = (y << 1) | 1; }
+         else {
+            y = y<<1; }
+         xuat_32led_don_2word(y>>16,y);
+         delay_ms(30);
+      }
+}
+void right_2_left_decay() {
+   
+   if( stat == 2 ) {
+         if ((y == 0xffffffff) ||  (y == 0)) { flag1 = ~flag1;}
+         if (flag1 & 0x1) {
+            y = (y >> 1) | 0x80000000; }
+         else {
+            y = y>>1; }
+         xuat_32led_don_2word(y>>16,y);
+         delay_ms(30);
+   }
+}
+void out_2_in(){
+   if( stat == 4 ) { 
+      if(y1 == 0xffff && y2 == 0xffff) { y1 = 0,y2 = 0;}
+      y1 = (y1<<1) | 1;
+      y2 = (y2>>1) | 0x8000;
+      xuat_32led_don_2word(y2,y1);
+      delay_ms(50);
+   }
+}
+void in_2_out(){
+   if( stat == 5 ) {
+      if(y1 == 0xffff && y2 == 0xffff) { y1 = 0,y2 = 0 ;}
+      y1 = (y1>>1) | 0x8000;
+      y2 = (y2<<1) | 1;
+      xuat_32led_don_2word(y2,y1);
+      delay_ms(50);
+   }
+}
+
+void left_2_right_incr(){
+   if(stat == 6) { 
+      if (head==0xffffffff) {Y = 0; STACK = 0x80000000; head = 1;}
+      if(STACK == head) {STACK = 0x80000000;   Y |= HEAD; head = head<<1; }
+      xuat_32led_don_2word((Y | STACK)>>16,Y | STACK);
+      
+      //if(STACK == head) {STACK = 0x80000000;   Y |= HEAD; head = head<<1; }
+      STACK = STACK>>1 ;
+      delay_ms(5);
+   }
+}
+void right_2_left_incr(){
+   if(stat == 7) { 
+      if(STACK1 == head1) {STACK1 = 1;   Y |= HEAD1; head1 = head1>>1; }
+      xuat_32led_don_2word((Y | STACK1)>>16,Y | STACK1);
+      if (Y==0xffffffff) {Y = 0; STACK1 = 1; head1 = 0x80000000;}
+      STACK1 = STACK1<<1 ;
+      delay_ms(10);
+   }
+}
+void button_up() {
+   if(!input(UP)) {
+      delay_ms(20);
+      if(!input(UP)) {
+         if ( stat != 7 ) {
+            stat++;
+            Y = 0;
+            y1 = 0; y2 =0; head = 1; head1 = 0x80000000; stack = 0x80000000; stack1 = 1;
+            while(!input(UP));
+            }
+       }
+   }
+}
+void button_dw() {
+   if(!input(DW)) {
+      delay_ms(20);
+      if(!input(DW)) {
+         if ( stat != 1 ) {
+            stat--;
+            Y = 0;
+            y1 = 0; y2 =0; head = 1; head1 = 0x80000000; stack = 0x80000000; stack1 = 1;
+            while(!input(DW));
+            }
+         }
+      }
+}
+void button_clr() {
+   if(!input(CLR)) {
+      stat=1;
+      Y = 0;
+      y1 = 0; y2 =0; head = 1; head1 = 0x80000000; stack = 0x80000000; stack1 = 1;
+      }
+}
+void main()
+{
+   set_up_port_ic_chot();
+   set_tris_b(0x3c);
+   xuat_32led_don_4byte(0,0,0,0);
+   
+   while(true)
+   {
+      button_up();
+      button_dw();
+      button_clr();
+      blink_32led();
+      left_2_right_decay();
+      right_2_left_decay();
+      out_2_in();
+      in_2_out();
+      left_2_right_incr();
+      right_2_left_incr();
+   }
+}
+
+

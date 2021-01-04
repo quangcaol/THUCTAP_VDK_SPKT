@@ -1,0 +1,317 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     @INTERRUPT_AREA
+017     @INTERRUPT_AREA
+018     @INTERRUPT_AREA
+019     tin_hieu_dk_74573_a
+019.2   g_lcda
+019.4   g_32a
+019.6   g_4a
+01A     tin_hieu_dk_74573_b
+01A.2   g_rbdcb
+01A.4   g_8b
+01A.6   g_mtb
+01B     dl_btn
+01C-01D rbdc
+01C.0   step_motor_enable
+01C.1   step_motor_in1
+01C.2   step_motor_in2
+01C.3   step_motor_in3
+01C.4   step_motor_in4
+01C.5   dc_enable
+01C.6   pwrkey
+01D.0   buzzer
+01D.1   triac_1
+01D.2   triac_2
+01D.3   relay_1
+01D.4   relay_2
+01E     donvi4
+01F     chuc4
+020     tram4
+021     ngan4
+022     lcddata
+023     lcdcontrol
+024     glcddata
+025     glcdcontrol
+026-02D led_7dq
+02E     tt8led
+02F     mpt1
+030     mpt2
+031-034 y
+035-038 yp_chay
+039-03C yt_chay
+03D-040 y_codinh
+041-042 zt
+043-044 zt_chay_t
+045-046 zt_chay_p
+047-048 zt_codinh
+049-04A zp
+04B-04C zp_chay_t
+04D-04E zp_chay_p
+04F-050 zp_codinh
+051-052 tgdlay
+053     dem_led
+054     i32
+055     j32
+056     ttct_td
+057     i16
+058     j16
+059-05C za
+05D-060 ya
+061-064 xa
+065-068 zb
+069-06C yb
+06D-070 xb
+071     ia
+072     ja
+073     lcd_control
+073.0   lcd_e
+073.1   lcd_rw
+073.2   lcd_rs
+073.3   lcd_p
+074-087 hang4
+088     giay
+089     bdn
+08A     phut
+08B     gio
+08C     dem_tg_exit
+08D     dem
+08E     dead
+08F     mode
+090-091 count
+092-093 countT
+094-095 @sprintf_string
+096     sang_tat_dan_phai_sang_trai_2x16led.dl
+096-097 xuat_4led_7doan_giaima_xoa_so0.tam
+096     sang_don_pst_32led.dl
+096     sang_tat_dan_tsp_32led.dl
+096-097 phim_bt1.dl
+096     sang_tat_dan_ngoai_vao_32led.dl
+096     LCD_DISPLAY.i
+096     sang_tat_32led.dl
+096-097 phim_bt0.dl
+096-097 phim_bt2.dl
+096     sang_tat_dan_pst_32led.dl
+096     @DIVS88.P1
+096     giai_ma.@SCRATCH1
+096     @PSTRINGC_929.@SCRATCH1
+097     @PSTRINGCN_970.P1
+097     lcd_command.lcd_data_x
+097     sang_don_pst_32led.chondelay
+097     sang_tat_dan_pst_32led.chondelay
+097     sang_tat_dan_phai_sang_trai_2x16led.chondelay
+097     sang_tat_32led.chondelay
+097     sang_tat_dan_tsp_32led.chondelay
+097     @DIVS88.P1
+097     @PRINTF_D_970.P2
+097     sang_tat_dan_ngoai_vao_32led.chondelay
+097     LCD_DISPLAY.@SCRATCH1
+097     @PSTRINGC_929.@SCRATCH2
+098     xuat_4led_7doan_4so.bl743
+098     lcd_data.lcd_data_x
+098     @PRINTF_D_970.P1
+098     delay_chon.dl
+098-09B xuat_32led_don_1dw.dwld
+098     xuat_4led_7doan_giaima_xoa_so0.@SCRATCH1
+098     sang_tat_dan_ngoai_vao_32led.@SCRATCH1
+098     sang_tat_dan_phai_sang_trai_2x16led.@SCRATCH1
+098     sang_tat_dan_pst_32led.@SCRATCH1
+098     sang_tat_dan_tsp_32led.@SCRATCH1
+098     sang_don_pst_32led.@SCRATCH1
+098     @DIVS88.@SCRATCH1
+098     @PSTRINGCN_970.@SCRATCH1
+099     xuat_4led_7doan_4so.bl742
+099     delay_chon.chondelay
+099     lcd_xuat_8bit.lcd_data_x
+099     xuat_4led_7doan_giaima_xoa_so0.@SCRATCH2
+099     sang_tat_dan_ngoai_vao_32led.@SCRATCH2
+099     sang_tat_dan_phai_sang_trai_2x16led.@SCRATCH2
+099     sang_tat_dan_pst_32led.@SCRATCH2
+099     sang_tat_dan_tsp_32led.@SCRATCH2
+099     @DIVS88.@SCRATCH2
+099     @PSTRINGCN_970.@SCRATCH2
+099     @PRINTF_D_970.@SCRATCH1
+09A     tang_dem_led_delay_0.dl
+09A-09B @DIV1616.P1
+09A     xuat_lcd20x4.lcd_signal
+09A     tang_dem_led_delay_1.dl
+09A     xuat_4led_7doan_4so.bl741
+09A     sang_tat_dan_pst_32led.@SCRATCH3
+09A     sang_tat_dan_tsp_32led.@SCRATCH3
+09A     @PRINTF_D_970.@SCRATCH2
+09B     tang_dem_led_delay_1.i
+09B     xuat_lcd20x4.lcd_ins_hthi
+09B     xuat_4led_7doan_4so.bl740
+09B     @delay_ms1.P1
+09B     sang_tat_dan_pst_32led.@SCRATCH4
+09B     sang_tat_dan_tsp_32led.@SCRATCH4
+09B     @PRINTF_D_970.@SCRATCH3
+09C-09D @DIV1616.P1
+09C-09D xuat_32led_don_1dw.wd1
+09C     xuat_8led_7doan_quet_1.ma
+09C     hien_thi_8led_7doan_quet_all.@SCRATCH1
+09C     sang_tat_dan_pst_32led.@SCRATCH5
+09C     sang_tat_dan_tsp_32led.@SCRATCH5
+09C     @PRINTF_D_970.@SCRATCH4
+09D     xuat_8led_7doan_quet_1.so_hthi
+09D     @DIV88.P1
+09D     @SPRINTF.P2
+09D     xuat_8led_7doan_quet_2.thutuled
+09E     @DIV88.P1
+09E-09F xuat_32led_don_1dw.wd0
+09E     xuat_8led_7doan_quet_2.so_hthi
+09E     @DIV1616.@SCRATCH1
+09E     xuat_8led_7doan_quet_1.@SCRATCH1
+09F     xuat_8led_7doan_quet_2.@SCRATCH1
+09F     @DIV88.@SCRATCH1
+0A0-0A1 xuat_32led_don_2word.wld1
+0A0     xuat_32led_don_1dw.@SCRATCH1
+0A2-0A3 xuat_32led_don_2word.wld0
+0A4     xuat_32led_don_2word.b3
+0A5     xuat_32led_don_2word.b2
+0A6     xuat_32led_don_2word.b1
+0A7     xuat_32led_don_2word.b0
+0A8     xuat_32led_don_4byte.bld3
+0A9     xuat_32led_don_4byte.bld2
+0AA     xuat_32led_don_4byte.bld1
+0AB     xuat_32led_don_4byte.bld0
+0AC     xuat_1byte.bytexuat
+0AD     xuat_1byte.sb
+0AE     xuat_1byte.x
+0AE.7   xuat_1byte.bseri
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P1
+FE9-FEA @READ_PROGRAM_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P3
+FE9-FEA @WRITE_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+0000AE  ma7doan.call
+0000BE  ma7doan.data
+0000D0  ttledquet.call
+0000E0  ttledquet.data
+0000E8  interrupt_timer1
+0000F8  @const968.call
+00010C  @const988.call
+00011C  @const990.call
+000130  @const991.call
+000144  set_up_port_ic_chot
+000162  xuat_1byte
+00018C  mo_ic_74573_a_thong_dl
+0001BA  xuat_glcd_lcd
+0001E6  xuat_lcd20x4
+0001F6  lcd_xuat_8bit
+000210  lcd_command
+000222  @delay_ms1
+000248  setup_lcd
+000290  lcd_data
+0002A2  @PSTRINGC_929
+0002C2  @DIVS88
+00030A  giai_ma
+000392  tat_2_led_chinh
+0003B6  mo_ic_74573_b_thong_dl
+0003E4  xuat_8led_7doan_quet_2
+000416  xuat_8led_7doan_quet_1
+000442  xuat_8led_7doan_quet_tat_led
+00044C  hien_thi_8led_7doan_quet_all
+00047E  @SPRINTF
+00049A  @PSTRINGCN_970
+0004BA  @DIV88
+0004E2  @PRINTF_D_970
+00058C  LCD_DISPLAY
+000604  phim_bt0
+000636  phim_up
+000684  phim_bt1
+0006B6  phim_dw
+000704  phim_bt2
+000736  phim_mode
+000754  @DIV1616
+000796  xuat_4led_7doan_4so
+0007C2  xuat_4led_7doan_giaima_xoa_so0
+0008C2  xuat_32led_don_4byte
+0008EE  xuat_32led_don_2word
+000912  xuat_32led_don_1dw
+000936  dao_dl_32bit_va_xuat
+000952  reset_toan_bo_bien
+0009F4  tang_dem_led_delay_0
+000A04  tang_dem_led_delay_1
+000A18  delay_chon
+000A2C  sang_tat_32led
+000A90  sang_tat_dan_ngoai_vao_32led
+000B0E  sang_don_pst_32led
+000B90  sang_tat_dan_pst_32led
+000C10  sang_tat_dan_phai_sang_trai_2x16led
+000C72  sang_tat_dan_tsp_32led
+000CEA  MAIN
+000CEA  @cinit1
+000DC6  @cinit2
+
+Project Directory:
+    D:\Document\TTVXL\TH_VDK_PIC_N1_SANG_THU_2\WEEK7\612\
+
+Project Files:
+    612.c                                                   [09-Nov-20 15:17  CRC=7072866C]
+    TV_PICKIT2_SHIFT_1.c                                    [09-Nov-20 15:01  CRC=586BB89B]
+    ..\..\..\..\..\MPLABX\PICC\devices\18f4550.h            [02-Apr-18 08:22  CRC=06200171]
+    TV_PICKIT2_SHIFT_KEY4X4_138.c                           [09-Nov-20 15:01  CRC=E058FE9E]
+    TV_PICKIT2_SHIFT_32LED_DON.c                            [09-Nov-20 15:01  CRC=34D242FD]
+    TV_PICKIT2_SHIFT_LCD.c                                  [09-Nov-20 15:01  CRC=5FC7D1D4]
+    18F4550.h                                               [09-Nov-20 15:01  CRC=06200171]
+
+Source signature=503156C9
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=1F8C
+
+Units:
+    612 (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    Errors:      612.err
+    INHX32:      612.hex
+    Symbols:     612.sym
+    List:        612.lst
+    Debug/eCOD:  612.cod
+    Project:     612.ccspjt

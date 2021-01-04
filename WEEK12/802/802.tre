@@ -1,0 +1,117 @@
+ÀÄ802
+   ÀÄMAIN  0/326  Ram=0
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄset_up_port_ic_chot  0/30  Ram=0
+      ÃÄsetup_lcd  0/92  Ram=0
+      ³  ÃÄlcd_command  0/22  Ram=1
+      ³  ³  ÀÄlcd_xuat_8bit  0/26  Ram=1
+      ³  ³     ÃÄxuat_lcd20x4  0/20  Ram=2
+      ³  ³     ³  ÀÄxuat_glcd_lcd  0/44  Ram=0
+      ³  ³     ³     ÃÄxuat_1byte  0/46  Ram=3
+      ³  ³     ³     ÃÄxuat_1byte  0/46  Ram=3
+      ³  ³     ³     ÃÄxuat_1byte  0/46  Ram=3
+      ³  ³     ³     ÃÄxuat_1byte  0/46  Ram=3
+      ³  ³     ³     ÀÄmo_ic_74573_a_thong_dl  0/46  Ram=0
+      ³  ³     ÀÄxuat_lcd20x4  0/20  Ram=2
+      ³  ³        ÀÄ*
+      ³  ÃÄlcd_command  0/22  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_command  0/22  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/40  Ram=1
+      ³  ÀÄlcd_command  0/22  Ram=1
+      ³     ÀÄ*
+      ÃÄlcd_command  0/22  Ram=1
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC_906  0/34  Ram=2
+      ³  ÀÄlcd_data  0/22  Ram=1
+      ³     ÀÄlcd_xuat_8bit  0/26  Ram=1
+      ³        ÀÄ*
+      ÃÄdoc_thoi_gian_tu_realtime  0/226  Ram=0
+      ³  ÃÄ@I2C_WRITE_1  0/118  Ram=1
+      ³  ÃÄ@I2C_WRITE_1  0/118  Ram=1
+      ³  ÃÄ@I2C_WRITE_1  0/118  Ram=1
+      ³  ÃÄ@I2C_READ_1  0/106  Ram=3
+      ³  ÃÄ@I2C_READ_1  0/106  Ram=3
+      ³  ÃÄ@I2C_READ_1  0/106  Ram=3
+      ³  ÃÄ@I2C_READ_1  0/106  Ram=3
+      ³  ÃÄ@I2C_READ_1  0/106  Ram=3
+      ³  ÃÄ@I2C_READ_1  0/106  Ram=3
+      ³  ÃÄ@I2C_READ_1  0/106  Ram=3
+      ³  ÃÄ@I2C_READ_1  0/106  Ram=3
+      ³  ÀÄ@I2C_READ_1  0/106  Ram=3
+      ÃÄxuat_32led_don_4byte  0/44  Ram=4
+      ³  ÃÄxuat_1byte  0/46  Ram=3
+      ³  ÃÄxuat_1byte  0/46  Ram=3
+      ³  ÃÄxuat_1byte  0/46  Ram=3
+      ³  ÃÄxuat_1byte  0/46  Ram=3
+      ³  ÀÄmo_ic_74573_a_thong_dl  0/46  Ram=0
+      ÃÄthiet_lap_thoi_gian_hien_tai  0/42  Ram=0
+      ÃÄnap_thoi_gian_htai_vao_ds13b07  0/144  Ram=0
+      ³  ÃÄ@I2C_WRITE_1  0/118  Ram=1
+      ³  ÃÄ@I2C_WRITE_1  0/118  Ram=1
+      ³  ÃÄ@I2C_WRITE_1  0/118  Ram=1
+      ³  ÃÄ@I2C_WRITE_1  0/118  Ram=1
+      ³  ÃÄ@I2C_WRITE_1  0/118  Ram=1
+      ³  ÃÄ@I2C_WRITE_1  0/118  Ram=1
+      ³  ÃÄ@I2C_WRITE_1  0/118  Ram=1
+      ³  ÃÄ@I2C_WRITE_1  0/118  Ram=1
+      ³  ÃÄ@I2C_WRITE_1  0/118  Ram=1
+      ³  ÃÄ@I2C_WRITE_1  0/118  Ram=1
+      ³  ÀÄ@I2C_WRITE_1  0/118  Ram=1
+      ÃÄdispMode  0/26  Ram=1
+      ³  ÃÄlcd_command  0/22  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÀÄlcd_data  0/22  Ram=1
+      ³     ÀÄ*
+      ÃÄdoc_thoi_gian_tu_realtime  0/226  Ram=0
+      ³  ÀÄ*
+      ÃÄdoc_thoi_gian_tu_realtime  0/226  Ram=0
+      ³  ÀÄ*
+      ÃÄdispMode  0/26  Ram=1
+      ³  ÀÄ*
+      ÃÄhien_thi_thoi_gian_ds13b07  0/292  Ram=1
+      ³  ÃÄlcd_command  0/22  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_data  0/22  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_data  0/22  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_data  0/22  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_data  0/22  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_data  0/22  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_data  0/22  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_data  0/22  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_data  0/22  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_command  0/22  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_data  0/22  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_data  0/22  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_data  0/22  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_data  0/22  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_data  0/22  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_data  0/22  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_data  0/22  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÀÄlcd_data  0/22  Ram=1
+      ³     ÀÄ*
+      ÃÄphim_mode  0/50  Ram=0
+      ³  ÃÄ@delay_ms1  0/40  Ram=1
+      ³  ÀÄdispMode  0/26  Ram=1
+      ³     ÀÄ*
+      ÃÄphim_dw  0/32  Ram=0
+      ³  ÀÄ@delay_ms1  0/40  Ram=1
+      ÀÄphim_up  0/32  Ram=0
+         ÀÄ@delay_ms1  0/40  Ram=1

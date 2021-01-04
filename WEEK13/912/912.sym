@@ -1,0 +1,226 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     tin_hieu_dk_74573_a
+004.2   g_lcda
+004.4   g_32a
+004.6   g_4a
+005     tin_hieu_dk_74573_b
+005.2   g_rbdcb
+005.4   g_8b
+005.6   g_mtb
+006     dl_btn
+007-008 rbdc
+007.0   step_motor_enable
+007.1   step_motor_in1
+007.2   step_motor_in2
+007.3   step_motor_in3
+007.4   step_motor_in4
+007.5   dc_enable
+007.6   pwrkey
+008.0   buzzer
+008.1   triac_1
+008.2   triac_2
+008.3   relay_1
+008.4   relay_2
+009     donvi4
+00A     chuc4
+00B     tram4
+00C     ngan4
+00D     lcddata
+00E     lcdcontrol
+00F     glcddata
+010     glcdcontrol
+011-018 led_7dq
+019     tt8led
+01A     mpt1
+01B     mpt2
+01C-01F y
+020-023 yp_chay
+024-027 yt_chay
+028-02B y_codinh
+02C-02D zt
+02E-02F zt_chay_t
+030-031 zt_chay_p
+032-033 zt_codinh
+034-035 zp
+036-037 zp_chay_t
+038-039 zp_chay_p
+03A-03B zp_codinh
+03C-03D tgdlay
+03E     dem_led
+03F     i32
+040     j32
+041     ttct_td
+042     i16
+043     j16
+044-047 za
+048-04B ya
+04C-04F xa
+050-053 zb
+054-057 yb
+058-05B xb
+05C     ia
+05D     ja
+05E-061 stepmotor_fullstep
+062-069 stepmotor_halfstep
+06A     stepmotor_i
+06B     stepmotor_delay
+06C.0   stepmotor_tn
+06C.1   stepmotor_onoff
+06C.2   dcmotor_tn
+06C.3   dcmotor_onoff
+06C.4   OnOff
+06D-06E pwm_duty
+06F.0   glcd_cs1
+06F     glcd_control
+06F.1   glcd_cs2
+06F.2   glcd_e
+06F.3   glcd_rw
+06F.4   glcd_rs
+06F.5   glcd_p
+070     doc
+071     ngang
+072-472 gdram_vdk
+473     ds18al
+474     ds18ah
+475     ds18a_tam
+476-477 ds18a
+478     lcd_control
+478.0   lcd_e
+478.1   lcd_rw
+478.2   lcd_rs
+478.3   lcd_p
+479     nam_ds13
+47A     thang_ds13
+47B     ngay_ds13
+47C     thu_ds13
+47D     gio_ds13
+47E     phut_ds13
+47F     giay_ds13
+480     ma_ds13
+481     control_ds13
+482     giaytam
+483     rev
+484-485 step
+486     xuat_buzzer_relay.rbdc1
+486-489 atan2.y
+486     dc_motor_control.@SCRATCH1
+486     phim_inv.@SCRATCH1
+486     HienThi.@SCRATCH1
+487     xuat_buzzer_relay.rbdc2
+487     @delay_ms1.P1
+487     HienThi.@SCRATCH2
+488     HienThi.@SCRATCH3
+489     HienThi.@SCRATCH4
+48A-48D atan2.x
+48A     HienThi.@SCRATCH5
+48B     HienThi.@SCRATCH6
+48C-48D @DIV1616.P1
+48C     HienThi.@SCRATCH7
+48D     HienThi.@SCRATCH8
+48E-48F @DIV1616.P1
+48E-491 atan2.z
+48E     HienThi.@SCRATCH9
+48F     HienThi.@SCRATCH10
+490     xuat_4led_7doan_4so.bl743
+490     @DIV1616.@SCRATCH1
+491     xuat_4led_7doan_4so.bl742
+492.0   atan2.sign
+492     xuat_4led_7doan_4so.bl741
+493     atan2.quad
+493     xuat_4led_7doan_4so.bl740
+494     xuat_1byte.bytexuat
+495     xuat_1byte.sb
+496     xuat_1byte.x
+496.7   xuat_1byte.bseri
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P1
+FE9-FEA @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P3
+FE9-FEA @WRITE_PROGRAM_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  ma7doan.call
+000014  ma7doan.data
+000026  set_up_port_ic_chot
+000044  xuat_1byte
+000072  mo_ic_74573_b_thong_dl
+0000A2  xuat_buzzer_relay
+0000C8  dc_motor_enable
+0000D0  dc_motor_stop
+0000DA  dc_motor_quay_thuan
+0000E6  dc_motor_quay_nghich
+0000F2  dc_motor_control
+000108  step_motor_quay_thuan_hs
+00012C  step_motor_quay_nghich_hs
+000150  motor_step_run_hs
+00015E  @delay_ms1
+000186  phim_inv
+0001E0  phim_up
+00020E  phim_dw
+00023C  @DIV1616
+000282  mo_ic_74573_a_thong_dl
+0002B2  xuat_4led_7doan_4so
+0002DE  HienThi
+00039C  MAIN
+00039C  @cinit1
+000478  @cinit2
+
+Project Directory:
+    D:\Document\TTVXL\TH_VDK_PIC_N1_SANG_THU_2\WEEK13\912\
+
+Project Files:
+    912.c                                                   [21-Dec-20 15:22  CRC=08D5E2A6]
+    TV_PICKIT2_SHIFT_1.c                                    [21-Dec-20 15:18  CRC=586BB89B]
+    ..\..\..\..\..\MPLABX\PICC\devices\18f4550.h            [02-Apr-18 08:22  CRC=06200171]
+    TV_PICKIT2_SHIFT_KEY4X4_138.c                           [21-Dec-20 15:18  CRC=E058FE9E]
+    TV_PICKIT2_SHIFT_32LED_DON.c                            [21-Dec-20 15:18  CRC=34D242FD]
+    TV_PICKIT2_SHIFT_STEP_MOTOR.c                           [21-Dec-20 15:18  CRC=FB7CDDD7]
+    TV_PICKIT2_SHIFT_DC_MOTOR.c                             [21-Dec-20 15:18  CRC=A974FA7B]
+    TV_PICKIT2_SHIFT_GLCD128X64.c                           [21-Dec-20 15:18  CRC=E246F316]
+    TV_PICKIT2_SHIFT_DS18B20.c                              [21-Dec-20 15:18  CRC=77F40D4A]
+    ..\..\..\..\..\MPLABX\PICC\drivers\touch.c              [02-Mar-10 15:04  CRC=24D0ECE7]
+    TV_PICKIT2_SHIFT_DS1307_I2C.c                           [21-Dec-20 15:18  CRC=FB415923]
+    tv_pickit2_shift_lcd.c                                  [21-Dec-20 15:18  CRC=5FC7D1D4]
+    18F4550.h                                               [21-Dec-20 15:18  CRC=06200171]
+    ..\..\..\..\..\MPLABX\PICC\drivers\math.h               [07-Dec-20 13:42  CRC=9CF8C837]
+
+Source signature=3BA560BC
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=7D4F
+
+Units:
+    912 (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    Errors:      912.err
+    INHX32:      912.hex
+    Symbols:     912.sym
+    List:        912.lst
+    Debug/eCOD:  912.cod
+    Project:     912.ccspjt

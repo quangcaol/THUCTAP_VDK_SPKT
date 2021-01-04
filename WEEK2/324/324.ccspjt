@@ -1,0 +1,43 @@
+[PROJECT]
+Target=324.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.078
+Compiler=PCH
+[Target Data]
+FileList=324.c
+[324.c]
+Type=4
+[mru-list]
+1=324.c
+
+[defines]
+buildcount=9
+
+[Opened Files]
+1=..\326\326.c
+t1=81
+Count=1
+2=324.c
+t2=81
+
+[ProjectLog]
+Days=1
+D1=05-10-2020
+D1_L=7
+D1_L1=[47575]Project Closed.
+D1_L2=[53124]Project Opened.
+D1_L3=[53138]Started Editing.
+D1_L4=[53564]Stopped Editing.
+TotalEdit=21
+TotalDebug=0
+D1_E=21
+D1_D=0
+D1_L5=[53667]Started Editing.
+D1_L6=[54413]Stopped Editing.
+D1_L7=[54414]Project Closed.
+
+[fileformats]
+forcecoff=0
+[Units]
+Count=1
+1=324 (main)

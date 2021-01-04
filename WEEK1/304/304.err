@@ -1,0 +1,5 @@
+Compiling D:\Document\TTVXL\TH_VDK_PIC_N1_SANG_THU_2\304\304 on 28-Sep-20 at 15:57
+>>> Warning 214 "304.c" Line 11(1,1): Operator precedance rules may not be as intended, use () to clarify
+      Memory usage:   ROM=1%      RAM=1% - 2%
+      0 Errors,  1 Warnings.
+Build Successful.

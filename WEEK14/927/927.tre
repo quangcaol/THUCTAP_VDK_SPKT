@@ -1,0 +1,23 @@
+ÀÄ927
+   ÃÄMAIN  0/294  Ram=0
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄset_up_port_ic_chot  0/30  Ram=0
+   ³  ÀÄxuat_4led_7doan_giaima_xoa_so0  0/344  Ram=5
+   ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³     ÃÄ@const731  0/44  Ram=0
+   ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³     ÃÄ@const731  0/44  Ram=0
+   ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³     ÃÄ@const731  0/44  Ram=0
+   ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³     ÃÄ@const731  0/44  Ram=0
+   ³     ÀÄxuat_4led_7doan_4so  0/44  Ram=4
+   ³        ÃÄxuat_1byte  0/46  Ram=3
+   ³        ÃÄxuat_1byte  0/46  Ram=3
+   ³        ÃÄxuat_1byte  0/46  Ram=3
+   ³        ÃÄxuat_1byte  0/46  Ram=3
+   ³        ÀÄmo_ic_74573_a_thong_dl  0/48  Ram=0
+   ÀÄinterrupt_timer3  0/20  Ram=0

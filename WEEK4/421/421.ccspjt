@@ -1,0 +1,14 @@
+[PROJECT]
+Target=421.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.078
+Compiler=PCH
+[Target Data]
+FileList=421.c
+[421.c]
+Type=4
+[mru-list]
+1=421.c
+[Units]
+Count=1
+1=421 (main)

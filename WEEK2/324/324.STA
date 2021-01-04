@@ -1,0 +1,52 @@
+
+ROM used:   428/32768 (1%)
+            428/32768 (1%) including unused fragments
+
+            0.3 Average locations per line
+            1.3 Average locations per statement
+
+RAM used:   32/2048 (2%) at main() level
+            45/2048 (2%) worst case
+
+Stack used: 0 worst case (0 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   37    25   8  324.c
+  703   244  76  TV_PICKIT2_SHIFT_1.c
+  852     0   0  ..\..\..\..\..\MPLABX\PICC\Devices\18F4550.H
+   61    50  16  TV_PICKIT2_SHIFT_KEY4X4_138.c
+----- -----
+ 1653   319 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     38   4    1             @delay_ms1
+0     42   5    3    271  4.3  XUAT_1BYTE
+0     42   5    4    231  2.3  XUAT_32LED_DON_4BYTE
+0     38   4    8    245  3.1  XUAT_32LED_DON_2WORD
+0     30   4    0    152  1.8  SET_UP_PORT_IC_CHOT
+0     48   6    0    119  1.7  MO_IC_74573_A_THONG_DL
+0    186  22    2    604  5.2  MAIN
+ Inline         0    317  6.4  @cinit1
+
+Program metrics:
+    Functions               7
+    Statements              319
+    Comments                335
+    Volume (V)              2955
+    Difficulty (D)          24.9
+    Effort to implement (E) 73485
+    Time to implement (T)   1 hours, 8 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   9
+    Maintainability (MI)    29
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-07FFE   424  32340  
+
+
+

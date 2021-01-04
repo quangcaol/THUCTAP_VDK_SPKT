@@ -1,0 +1,14 @@
+[PROJECT]
+Target=654.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.078
+Compiler=PCH
+[Target Data]
+FileList=654.c
+[654.c]
+Type=4
+[mru-list]
+1=654.c
+[Units]
+Count=1
+1=654 (main)

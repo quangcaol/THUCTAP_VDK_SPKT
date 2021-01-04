@@ -1,0 +1,29 @@
+[PROJECT]
+Target=BT311.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.078
+Compiler=PCH
+[Target Data]
+FileList=BT311.c
+[BT311.c]
+Type=4
+[mru-list]
+1=BT311.c
+
+[defines]
+buildcount=9
+
+[ProjectLog]
+Days=1
+D1=28-09-2020
+D1_L=2
+D1_L1=[83203]Started Editing.
+D1_L2=[84316]Project Closed.
+
+[Opened Files]
+1=BT311.c
+t1=1
+Count=1
+[Units]
+Count=1
+1=BT311 (main)

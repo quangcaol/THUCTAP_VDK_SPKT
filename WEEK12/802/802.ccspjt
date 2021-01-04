@@ -1,0 +1,55 @@
+[PROJECT]
+Target=802.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.015
+Compiler=PCH
+Development_Mode=
+ToolSuite=CCS
+[Target Data]
+FileList=802.c
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+[802.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=802.c
+[Opened Files]
+1=802.c
+2=18F4550.h
+3=
+[Directories]
+Include=D:\Document\TTVXL\TT - VDK - HK 1 - 20-21\1 - PHAN MEM\PICC\Devices\;D:\Document\TTVXL\TT - VDK - HK 1 - 20-21\1 - PHAN MEM\PICC\Drivers\
+Library=
+LinkerScript=
+[defines]
+enabled=0
+chip=1
+D1=
+V1=
+[fileformats]
+forcecoff=1
+debug=4
+error=2
+object=0
+list=0
+scratch=0
+sta=1
+tre=1
+allerrors=1
+allwarnings=1
+stayupne=3
+stayupoe=0
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[CompilerVersion]
+Fixed=5.015
+[Units]
+Count=1
+1=802 (main)

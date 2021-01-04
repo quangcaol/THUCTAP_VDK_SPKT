@@ -1,0 +1,191 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     @INTERRUPT_AREA
+017     @INTERRUPT_AREA
+018     @INTERRUPT_AREA
+019     tin_hieu_dk_74573_a
+019.2   g_lcda
+019.4   g_32a
+019.6   g_4a
+01A     tin_hieu_dk_74573_b
+01A.2   g_rbdcb
+01A.4   g_8b
+01A.6   g_mtb
+01B     dl_btn
+01C-01D rbdc
+01C.0   step_motor_enable
+01C.1   step_motor_in1
+01C.2   step_motor_in2
+01C.3   step_motor_in3
+01C.4   step_motor_in4
+01C.5   dc_enable
+01C.6   pwrkey
+01D.0   buzzer
+01D.1   triac_1
+01D.2   triac_2
+01D.3   relay_1
+01D.4   relay_2
+01E     donvi4
+01F     chuc4
+020     tram4
+021     ngan4
+022     lcddata
+023     lcdcontrol
+024     glcddata
+025     glcdcontrol
+026-02D led_7dq
+02E     tt8led
+02F     mpt1
+030     mpt2
+031-034 y
+035-038 yp_chay
+039-03C yt_chay
+03D-040 y_codinh
+041-042 zt
+043-044 zt_chay_t
+045-046 zt_chay_p
+047-048 zt_codinh
+049-04A zp
+04B-04C zp_chay_t
+04D-04E zp_chay_p
+04F-050 zp_codinh
+051-052 tgdlay
+053     dem_led
+054     i32
+055     j32
+056     ttct_td
+057     i16
+058     j16
+059-05C za
+05D-060 ya
+061-064 xa
+065-068 zb
+069-06C yb
+06D-070 xb
+071     ia
+072     ja
+073     giay
+074     bdn
+075     phut
+076     gio
+077     mode
+078     Up1
+079     Dw1
+07A     xuat_8led_7doan_quet_1.ma
+07A-07B phim_bt0.dl
+07A     @DIVS88.P1
+07A-07B phim_bt1.dl
+07A-07B phim_bt2.dl
+07A     hien_thi_8led_7doan_quet.@SCRATCH1
+07A     giai_ma.@SCRATCH1
+07B     @DIVS88.P1
+07B     xuat_8led_7doan_quet_1.so_hthi
+07B     xuat_8led_7doan_quet_2.thutuled
+07C     xuat_8led_7doan_quet_2.so_hthi
+07C     xuat_8led_7doan_quet_1.@SCRATCH1
+07C     @DIVS88.@SCRATCH1
+07D     xuat_8led_7doan_quet_2.@SCRATCH1
+07D     @DIVS88.@SCRATCH2
+07E     xuat_1byte.bytexuat
+07F     xuat_1byte.sb
+080     xuat_1byte.x
+080.7   xuat_1byte.bseri
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P1
+FE9-FEA @READ_PROGRAM_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P3
+FE9-FEA @WRITE_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+0000AE  ma7doan.call
+0000BE  ma7doan.data
+0000D0  ttledquet.call
+0000E0  ttledquet.data
+0000E8  interrupt_timer1
+0000F8  set_up_port_ic_chot
+000116  phim_bt2
+000142  phim_mode
+000160  @DIVS88
+0001A8  giai_ma
+000230  xuat_1byte
+00025A  mo_ic_74573_b_thong_dl
+000288  xuat_8led_7doan_quet_2
+0002BA  xuat_8led_7doan_quet_1
+0002E6  xuat_8led_7doan_quet_tat_led
+0002F0  hien_thi_8led_7doan_quet
+000336  phim_bt0
+000362  phim_up
+000374  phim_bt1
+0003A0  phim_dw
+0003B2  MAIN
+0003B2  @cinit1
+000480  @cinit2
+
+Project Directory:
+    D:\Document\TTVXL\TH_VDK_PIC_N1_SANG_THU_2\WEEK6\516\
+
+Project Files:
+    516.c                                                   [02-Nov-20 13:40  CRC=C5679F0A]
+    TV_PICKIT2_SHIFT_1.c                                    [02-Nov-20 12:38  CRC=2AA872B7]
+    ..\..\..\..\..\MPLABX\PICC\devices\18f4550.h            [02-Apr-18 08:22  CRC=06200171]
+    TV_PICKIT2_SHIFT_KEY4X4_138.c                           [02-Nov-20 12:38  CRC=E058FE9E]
+    TV_PICKIT2_SHIFT_32LED_DON.c                            [02-Nov-20 12:38  CRC=34D242FD]
+    18F4550.h                                               [02-Nov-20 12:38  CRC=06200171]
+
+Source signature=179B57AF
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=4493
+
+Units:
+    516 (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    Errors:      516.err
+    INHX32:      516.hex
+    Symbols:     516.sym
+    List:        516.lst
+    Debug/eCOD:  516.cod
+    Project:     516.ccspjt

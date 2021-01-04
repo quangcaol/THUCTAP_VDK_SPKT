@@ -1,0 +1,23 @@
+[PROJECT]
+Target=323.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.078
+Compiler=PCH
+[Target Data]
+FileList=323.c
+[323.c]
+Type=4
+[mru-list]
+1=323.c
+[Units]
+Count=1
+1=323 (main)
+
+[defines]
+buildcount=1
+
+[ProjectLog]
+Days=1
+D1=05-10-2020
+D1_L=1
+D1_L1=[47134]Project Closed.

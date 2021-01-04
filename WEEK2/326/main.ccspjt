@@ -1,0 +1,43 @@
+[PROJECT]
+Target=main.hex
+Processor_Text=PIC18F4550
+CCSVerions=5.078
+Compiler=PCH
+CCSVersion=5.078
+[Target Data]
+FileList=main.c
+[Directories]
+Include=
+[D:\Document\TTVXL\TH_VDK_PIC_N1_SANG_THU_2\WEEK2\326\main]
+Type=4
+[mru-list]
+1=main.c
+
+[fileformats]
+forcecoff=0
+
+[ProjectLog]
+Days=1
+D1=14-12-2020
+D1_L=4
+D1_L1=[84323]Project Opened.
+D1_L2=[84690]Started Editing.
+D1_L3=[85024]Stopped Editing.
+TotalEdit=1
+TotalDebug=0
+D1_E=1
+D1_D=0
+D1_L4=[85102]Project Closed.
+
+[Opened Files]
+1=main.c
+t1=1
+Count=1
+[main.c]
+Type=4
+[Units]
+Count=1
+1=main (main)
+
+[defines]
+buildcount=1

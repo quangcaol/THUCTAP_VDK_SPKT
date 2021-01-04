@@ -1,0 +1,16 @@
+[PROJECT]
+Target=804.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.015
+Compiler=PCH
+[Target Data]
+FileList=804.c
+[Directories]
+Include=D:\Document\TTVXL\TT - VDK - HK 1 - 20-21\1 - PHAN MEM\PICC\devices\;D:\Document\TTVXL\TT - VDK - HK 1 - 20-21\1 - PHAN MEM\PICC\drivers\
+[804.c]
+Type=4
+[mru-list]
+1=804.c
+[Units]
+Count=1
+1=804 (main)

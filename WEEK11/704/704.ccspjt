@@ -1,0 +1,14 @@
+[PROJECT]
+Target=704.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.078
+Compiler=PCH
+[Target Data]
+FileList=704.c
+[704.c]
+Type=4
+[mru-list]
+1=704.c
+[Units]
+Count=1
+1=704 (main)

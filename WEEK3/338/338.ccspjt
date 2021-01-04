@@ -1,0 +1,14 @@
+[PROJECT]
+Target=338.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.078
+Compiler=PCH
+[Target Data]
+FileList=338.c
+[338.c]
+Type=4
+[mru-list]
+1=338.c
+[Units]
+Count=1
+1=338 (main)

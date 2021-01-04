@@ -1,0 +1,35 @@
+[PROJECT]
+Target=BT301.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.078
+Compiler=PCH
+[Target Data]
+FileList=BT301.c
+[BT301.c]
+Type=4
+[mru-list]
+1=BT301.c
+
+[defines]
+buildcount=2
+
+[ProjectLog]
+Days=2
+D1=28-09-2020
+D1_L=1
+D1_L1=[56118]Project Closed.
+D2=03-10-2020
+D2_L=2
+D2_L1=[1105]Project Opened.
+D2_L2=[1244]Project Closed.
+
+[fileformats]
+forcecoff=0
+
+[Opened Files]
+1=BT301.c
+t1=1
+Count=1
+[Units]
+Count=1
+1=BT301 (main)

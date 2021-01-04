@@ -1,0 +1,24 @@
+#include "TV_PICKIT2_SHIFT_1.c"
+#include <stdint.h>
+
+#define no 2
+
+unsigned int32 Y;
+
+
+void left_to_right_reserver() {
+      y = (y << 1) | 1;
+      if (y == 0xffffffff) { y = 0; }
+      xuat_32led_don_2word(y>>16,y);
+      delay_ms(40);
+}
+
+int main(void) {
+   set_up_port_ic_chot();
+   y = 0;
+   while(true) {
+      left_to_right_reserver();
+   }
+   return 1;
+}
+

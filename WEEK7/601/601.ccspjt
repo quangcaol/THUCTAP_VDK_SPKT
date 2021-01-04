@@ -1,0 +1,14 @@
+[PROJECT]
+Target=601.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.078
+Compiler=PCH
+[Target Data]
+FileList=601.c
+[601.c]
+Type=4
+[mru-list]
+1=601.c
+[Units]
+Count=1
+1=601 (main)

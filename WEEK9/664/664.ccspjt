@@ -1,0 +1,14 @@
+[PROJECT]
+Target=664.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.078
+Compiler=PCH
+[Target Data]
+FileList=664.c
+[664.c]
+Type=4
+[mru-list]
+1=664.c
+[Units]
+Count=1
+1=664 (main)

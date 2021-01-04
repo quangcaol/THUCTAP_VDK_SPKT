@@ -1,0 +1,32 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "CCSC COMPLIER",
+			"command": "D:\\Document\\TTVXL\\TT - VDK - HK 1 - 20-21\\1 - PHAN MEM\\PICC\\CCSC.exe",
+			"args": [
+				"+FH",
+				"+ES",
+				"+J",
+				"+DC",
+				"+Y9",
+				"-T",
+				"-A",
+				"+M",
+				"+LNlst",
+				"+O8hex",
+				"-P",
+				"-Z",
+				"${file}"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+	]
+}
